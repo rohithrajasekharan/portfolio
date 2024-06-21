@@ -3,7 +3,7 @@ export default function Blogs(){
         <>
         <h2 className="text-xl font-semibold">Blogs</h2>
           <div className="space-y-8">
-            <div>
+            <div className="grid gap-1">
               <h3 className="font-semibold underline cursor-pointer">Scaling Rust Microservices with Kubernetes</h3>
               <div className="flex items-center justify-between">
                 <p className="text-sm text-gray-500">Published on May 15, 2023</p>
@@ -14,7 +14,7 @@ export default function Blogs(){
                 optimization.
               </p>
             </div>
-            <div>
+            <div className="grid gap-1">
               <h3 className="font-semibold underline cursor-pointer">Mastering TypeScript: A Beginner's Guide</h3>
               <div className="flex items-center justify-between">
                 <p className="text-sm text-gray-500">Published on March 20, 2023</p>
