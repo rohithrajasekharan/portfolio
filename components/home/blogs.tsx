@@ -15,7 +15,7 @@ export default function Blogs(){
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="font-semibold underline cursor-pointer">Mastering TypeScript: A Beginner's Guide</h3>
+              <h3 className="font-semibold underline cursor-pointer">Mastering TypeScript: A Beginner Guide</h3>
               <div className="flex items-center justify-between">
                 <p className="text-sm text-gray-500">Published on March 20, 2023</p>
               </div>
