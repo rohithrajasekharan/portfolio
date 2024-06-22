@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import Link from "next/link"
 
 export default function Projects(){
     return(
@@ -73,7 +74,9 @@ export default function Projects(){
                 </div>
             </Card>
             <Card className="w-full flex items-center justify-center min-h-32">
-            <Button variant="ghost">View More</Button>
+            <Link href='https://github.com/rohithrajasekharan?tab=repositories' target="blank">
+            <Button variant="ghost">View More</Button>              
+              </Link>
             </Card>
           </div>
           </section>
