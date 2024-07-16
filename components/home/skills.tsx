@@ -45,7 +45,7 @@ export default function Skills() {
           </p>
         </div>
         <div>
-          <h3 className="text-lg font-semibold">MongoDB / Sql</h3>
+          <h3 className="text-lg font-semibold">MongoDB / Sql / Postgres</h3>
           <Progress value={90} className="mt-2" />
           <p className="text-sm text-muted-foreground mt-2">
             Worked with various Relational/Non-Relational databases and made use of popular ORMs. Also proficient in Graphql.
