@@ -13,9 +13,7 @@ export default function WorkExperience() {
             <h3 className="font-semibold">Software Engineer</h3>
             <p className="text-sm text-gray-500">Tata Consultancy Services | 2019 - Present</p>
             <p className="text-sm">
-              Developed and maintained scalable, high-performance backend systems using Rust. Collaborated with
-              cross-functional teams to deliver innovative solutions that improved overall system performance and
-              reliability.
+            As a full stack engineer, played a crucial role in developing and deploying key features to applications that significantly enhances flight operations for Singapore Airlines. 
             </p>
           </div>
         </div>
@@ -23,29 +21,34 @@ export default function WorkExperience() {
           <div className="grid gap-10 ml-4">
             <div className="grid gap-1 text-sm relative">
               <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-22.5px] z-10 top-1 dark:bg-gray-50" />
-              <div className="font-medium">Project A - E-commerce Platform</div>
-              <div className="text-gray-600 dark:text-gray-500 italic"> June 2020 - December 2021</div>
+              <div className="font-medium">IRRAMS – International Relations Regulatory Approval Management S/M </div>
+              <div className="text-gray-600 dark:text-gray-500 italic">Aug 2019 – Mar 2021</div>
               <div className="text-gray-500 dark:text-gray-400">
-                Developed a scalable and user-friendly e-commerce platform with advanced features like personalized
-                recommendations, multi-currency support, and seamless checkout experience.
+              Worked as a front-end developer to enhance and implement features for a web application that tracks overflight and landing approvals for flights. 
               </div>
             </div>
             <div className="grid gap-1 text-sm relative">
               <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-22.5px] z-10 top-1 dark:bg-gray-50" />
-              <div className="font-medium">Project B - SaaS Analytics Platform</div>
-              <div className="text-gray-600 dark:text-gray-500 italic"> January 2022 - Present</div>
+              <div className="font-medium">ELB – Electronic Tech Log Book</div>
+              <div className="text-gray-600 dark:text-gray-500 italic"> Mar 2021 – Dec 2022</div>
               <div className="text-gray-500 dark:text-gray-400">
-                Designed and implemented a SaaS-based analytics platform that provided real-time insights and
-                customizable reporting for enterprise customers.
+              Worked as a front-end developer to develop a web application that logs events occurred during flights. 
               </div>
             </div>
             <div className="grid gap-1 text-sm relative">
               <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-22.5px] z-10 top-1 dark:bg-gray-50" />
-              <div className="font-medium">Project C - Mobile App Development</div>
-              <div className="text-gray-600 dark:text-gray-500 italic"> April 2021 - September 2022</div>
+              <div className="font-medium">LSQ </div>
+              <div className="text-gray-600 dark:text-gray-500 italic">Dec 2022 – Mar 2023 </div>
               <div className="text-gray-500 dark:text-gray-400">
-                Developed and maintained a cross-platform mobile application for iOS and Android, incorporating
-                features like push notifications, in-app purchases, and offline functionality.
+              Worked as a full stack developer for a web application that acts as an inventory of items pertaining to a fleet or flights. 
+              </div>
+            </div>
+            <div className="grid gap-1 text-sm relative">
+              <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-22.5px] z-10 top-1 dark:bg-gray-50" />
+              <div className="font-medium">ACE – AirCrew Competency Ecosystem 	</div>
+              <div className="text-gray-600 dark:text-gray-500 italic">Aug 2023 – Present</div>
+              <div className="text-gray-500 dark:text-gray-400">
+              Worked as a full stack developer on an ecosystem of apps that manages and tracks the progress and metrics of pilot training. 
               </div>
             </div>
           </div>
