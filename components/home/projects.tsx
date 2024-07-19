@@ -48,10 +48,10 @@ export default function Projects(){
                 </CardFooter>
             </Card>
 
-            {/* <Card className="w-full p-4 space-y-2 flex flex-col">
+            <Card className="w-full p-4 space-y-2 flex flex-col">
               <CardContent className="flex-1" >
-              <h3 className="font-semibold">Chatbot using Open AI API</h3>
-                  <h3 className="text-sm text-gray-500 dark:text-gray-400">An RSS aggregator that scrapes the followed RSS feeds and stores the content in a postgres database for future reference.</h3>
+              <h3 className="font-semibold">Chatbot using Vercel AI sdk</h3>
+                  <h3 className="text-sm text-gray-500 dark:text-gray-400">A simple AI chatbot made using shadcn ui library and vercel AI SDK (model used: gemini-1.5-flash-latest).</h3>
               </CardContent>
                   <CardFooter className="flex-shrink-0 flex items-center justify-between">
                     <Badge variant="secondary">Next.js</Badge>
@@ -61,7 +61,7 @@ export default function Projects(){
                 </CardFooter>
             </Card>
 
-            <Card className="w-full p-4 space-y-2 flex flex-col">
+            {/* <Card className="w-full p-4 space-y-2 flex flex-col">
               <CardContent className="flex-1" >
               <h3 className="font-semibold">Document scanning using vercel AI sdk</h3>
                   <h3 className="text-sm text-gray-500 dark:text-gray-400">An RSS aggregator that scrapes the followed RSS feeds and stores the content in a postgres database for future reference.</h3>
