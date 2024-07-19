@@ -14,9 +14,9 @@ export default function Blogs(){
                 architecture on Kubernetes, focusing on strategies for scalability, reliability, and performance
                 optimization.
               </p>
-            </div> */}
+            </div>
 
-            {/* <div className="grid gap-1">
+            <div className="grid gap-1">
               <h3 className="font-semibold underline cursor-pointer">Mastering TypeScript: A Beginner Guide</h3>
               <div className="flex items-center justify-between">
                 <p className="text-sm text-gray-500">Published on March 20, 2023</p>

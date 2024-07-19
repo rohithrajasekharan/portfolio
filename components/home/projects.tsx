@@ -34,54 +34,72 @@ export default function Projects(){
                     </Link>
                 </CardFooter>
             </Card>
-            {/* <Card className="w-full p-4 space-y-2">
-                <h3 className="font-semibold">Project 3</h3>
-                  <h3 className="text-sm text-gray-500 dark:text-gray-400">Serverless functions with Rust and Deno</h3>
-                  <div className="flex items-center justify-between mt-2">
-                    <Badge variant="secondary">Rust</Badge>
+
+            <Card className="w-full p-4 space-y-2 flex flex-col">
+              <CardContent className="flex-1" >
+              <h3 className="font-semibold">Web Scraper using go</h3>
+                  <h3 className="text-sm text-gray-500 dark:text-gray-400">A simple webscraper in go that uses colly to scrape a given url to find the list of products and return it as json.</h3>
+              </CardContent>
+                  <CardFooter className="flex-shrink-0 flex items-center justify-between">
+                    <Badge variant="secondary">Go</Badge>
+                    <Link href='https://github.com/rohithrajasekharan/go-webscraper' target="blank">
                     <Button variant="ghost">View</Button>
-                </div>
+                    </Link>
+                </CardFooter>
             </Card>
-            <Card className="w-full p-4 space-y-2">
-                <h3 className="font-semibold">Project 4</h3>
-                  <h3 className="text-sm text-gray-500 dark:text-gray-400">Rust-based microservices for scalable backend</h3>
-                  <div className="flex items-center justify-between mt-2">
-                    <Badge variant="secondary">Rust</Badge>
+
+            {/* <Card className="w-full p-4 space-y-2 flex flex-col">
+              <CardContent className="flex-1" >
+              <h3 className="font-semibold">Chatbot using Open AI API</h3>
+                  <h3 className="text-sm text-gray-500 dark:text-gray-400">An RSS aggregator that scrapes the followed RSS feeds and stores the content in a postgres database for future reference.</h3>
+              </CardContent>
+                  <CardFooter className="flex-shrink-0 flex items-center justify-between">
+                    <Badge variant="secondary">Next.js</Badge>
+                    <Link href='https://github.com/rohithrajasekharan/go-oms' target="blank">
                     <Button variant="ghost">View</Button>
-                </div>
+                    </Link>
+                </CardFooter>
             </Card>
-            <Card className="w-full p-4 space-y-2">
-                <h3 className="font-semibold">Project 5</h3>
-                  <h3 className="text-sm text-gray-500 dark:text-gray-400">TypeScript-powered React app with custom hooks</h3>
-                  <div className="flex items-center justify-between mt-2">
-                    <Badge variant="secondary">TypeScript</Badge>
+
+            <Card className="w-full p-4 space-y-2 flex flex-col">
+              <CardContent className="flex-1" >
+              <h3 className="font-semibold">Document scanning using vercel AI sdk</h3>
+                  <h3 className="text-sm text-gray-500 dark:text-gray-400">An RSS aggregator that scrapes the followed RSS feeds and stores the content in a postgres database for future reference.</h3>
+              </CardContent>
+                  <CardFooter className="flex-shrink-0 flex items-center justify-between">
+                    <Badge variant="secondary">Next.js</Badge>
+                    <Link href='https://github.com/rohithrajasekharan/go-oms' target="blank">
                     <Button variant="ghost">View</Button>
-                </div>
+                    </Link>
+                </CardFooter>
             </Card>
-            <Card className="w-full p-4 space-y-2">
-                <h3 className="font-semibold">Project 6</h3>
-                  <h3 className="text-sm text-gray-500 dark:text-gray-400">Serverless functions with Rust and Deno</h3>
-                  <div className="flex items-center justify-between mt-2">
-                    <Badge variant="secondary">Rust</Badge>
+
+            <Card className="w-full p-4 space-y-2 flex flex-col">
+              <CardContent className="flex-1" >
+              <h3 className="font-semibold">Next.js Landing page Template</h3>
+                  <h3 className="text-sm text-gray-500 dark:text-gray-400">An RSS aggregator that scrapes the followed RSS feeds and stores the content in a postgres database for future reference.</h3>
+              </CardContent>
+                  <CardFooter className="flex-shrink-0 flex items-center justify-between">
+                    <Badge variant="secondary">Next.js</Badge>
+                    <Link href='https://github.com/rohithrajasekharan/go-oms' target="blank">
                     <Button variant="ghost">View</Button>
-                </div>
+                    </Link>
+                </CardFooter>
             </Card>
-            <Card className="w-full p-4 space-y-2">
-                <h3 className="font-semibold">Project 7</h3>
-                  <h3 className="text-sm text-gray-500 dark:text-gray-400">TypeScript-powered React app with custom hooks</h3>
-                  <div className="flex items-center justify-between mt-2">
-                    <Badge variant="secondary">TypeScript</Badge>
+
+            <Card className="w-full p-4 space-y-2 flex flex-col">
+              <CardContent className="flex-1" >
+              <h3 className="font-semibold">ERC21 token operations</h3>
+                  <h3 className="text-sm text-gray-500 dark:text-gray-400">An RSS aggregator that scrapes the followed RSS feeds and stores the content in a postgres database for future reference.</h3>
+              </CardContent>
+                  <CardFooter className="flex-shrink-0 flex items-center justify-between">
+                    <Badge variant="secondary">web3</Badge>
+                    <Link href='https://github.com/rohithrajasekharan/go-oms' target="blank">
                     <Button variant="ghost">View</Button>
-                </div>
-            </Card>
-            <Card className="w-full p-4 space-y-2">
-                <h3 className="font-semibold">Project 8</h3>
-                  <h3 className="text-sm text-gray-500 dark:text-gray-400">Serverless functions with Rust and Deno</h3>
-                  <div className="flex items-center justify-between mt-2">
-                    <Badge variant="secondary">Rust</Badge>
-                    <Button variant="ghost">View</Button>
-                </div>
+                    </Link>
+                </CardFooter>
             </Card> */}
+            
             <Card className="w-full flex items-center justify-center min-h-32">
             <Link href='https://github.com/rohithrajasekharan?tab=repositories' target="blank">
             <Button variant="ghost">View More</Button>              
