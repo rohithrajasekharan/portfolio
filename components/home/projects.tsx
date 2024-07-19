@@ -55,7 +55,7 @@ export default function Projects(){
               </CardContent>
                   <CardFooter className="flex-shrink-0 flex items-center justify-between">
                     <Badge variant="secondary">Next.js</Badge>
-                    <Link href='https://github.com/rohithrajasekharan/go-oms' target="blank">
+                    <Link href='https://github.com/rohithrajasekharan/ai-chatbot' target="blank">
                     <Button variant="ghost">View</Button>
                     </Link>
                 </CardFooter>
