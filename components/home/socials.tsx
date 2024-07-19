@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Socials() {
   return (
@@ -9,7 +10,9 @@ export default function Socials() {
             <TwitterIcon className="w-16 h-8 text-muted-foreground" />
             <div>
               <h3 className="text-lg font-medium">X</h3>
+              <Link href="https://x.com/dedsec4242" target="blank">
               <p className="text-sm text-muted-foreground">Follow @dedsec4242</p>
+              </Link>
             </div>
           </div>
           <Button variant="outline" size="sm">
@@ -21,7 +24,9 @@ export default function Socials() {
             <GithubIcon className="w-16 h-8 text-muted-foreground" />
             <div>
               <h3 className="text-lg font-medium">Github</h3>
+              <Link href="https://github.com/rohithrajasekharan" target="blank">
               <p className="text-sm text-muted-foreground">Follow @rohithrajsekharan</p>
+              </Link>
             </div>
           </div>
           <Button variant="outline" size="sm">
@@ -33,7 +38,9 @@ export default function Socials() {
             <LinkedinIcon className="w-16 h-8 text-muted-foreground" />
             <div>
               <h3 className="text-lg font-medium">LinkedIn</h3>
+              <Link href="https://www.linkedin.com/in/rohithrajasekharan/" target="blank">
               <p className="text-sm text-muted-foreground">Add to Network</p>
+              </Link>
             </div>
           </div>
           <Button variant="outline" size="sm">
@@ -45,7 +52,9 @@ export default function Socials() {
             <HashnodeIcon className="w-16 h-8 text-muted-foreground" />
             <div>
               <h3 className="text-lg font-medium">Hashnode</h3>
+              <Link href="https://rohithrajasekharan.hashnode.dev/" target="blank">
               <p className="text-sm text-muted-foreground">Read blog posts</p>
+              </Link>
             </div>
           </div>
           <Button variant="outline" size="sm">

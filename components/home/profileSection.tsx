@@ -14,7 +14,9 @@ export default function ProfileSection(){
             <Link href='/Resume.pdf' target="blank">
             <Button variant="outline">Download Resume</Button>
             </Link>
+            <Link href="mailto:rohithrajasekharan@outlook.com">
             <Button>Connect</Button>
+            </Link>
           </div>
           </>)
 }
