@@ -15,14 +15,14 @@ export default function Skills() {
         </div>
         <div>
           <h3 className="text-md font-semibold">Typescript</h3>
-          <Progress value={85} className="mt-2" />
+          <Progress value={90} className="mt-2" />
           <p className="text-sm text-muted-foreground mt-2">
             Rooting for Type Safety across the industry by building projects making full use of type safe programming.
           </p>
         </div>
         <div>
           <h3 className="text-md font-semibold">React</h3>
-          <Progress value={80} className="mt-2" />
+          <Progress value={100} className="mt-2" />
           <p className="text-sm text-muted-foreground mt-2">
             Most of my industrial experience lies in creating React applications for the airline industry. Have seen and moved along with
             the evolution from class components to server side components.
@@ -30,7 +30,7 @@ export default function Skills() {
         </div>
         <div>
           <h3 className="text-md font-semibold">Node.js</h3>
-          <Progress value={75} className="mt-2" />
+          <Progress value={85} className="mt-2" />
           <p className="text-sm text-muted-foreground mt-2">
             Experienced in building server-side applications and APIs using Node.js, including the use of popular
             frameworks like Express.
@@ -38,7 +38,7 @@ export default function Skills() {
         </div>
         <div>
           <h3 className="text-lg font-semibold">Next.js</h3>
-          <Progress value={70} className="mt-2" />
+          <Progress value={85} className="mt-2" />
           <p className="text-sm text-muted-foreground mt-2">
             My favourite way of working with react applications that may or may not need SEO. Most of my side projects are done in 
             Next.js
@@ -46,7 +46,7 @@ export default function Skills() {
         </div>
         <div>
           <h3 className="text-lg font-semibold">MongoDB / Sql / Postgres</h3>
-          <Progress value={90} className="mt-2" />
+          <Progress value={80} className="mt-2" />
           <p className="text-sm text-muted-foreground mt-2">
             Worked with various Relational/Non-Relational databases and made use of popular ORMs. Also proficient in Graphql.
           </p>
