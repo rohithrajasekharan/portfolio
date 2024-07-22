@@ -13,8 +13,7 @@ export default function WorkExperience() {
             <h3 className="font-semibold">Software Engineer</h3>
             <p className="text-sm text-gray-500">Tata Consultancy Services | 2019 - Present</p>
             <p className="text-sm">
-            As a full stack engineer, played a crucial role in developing and deploying key features to applications that significantly enhances flight operations for Singapore Airlines. 
-            </p>
+            As a full stack engineer, played a crucial role in developing and deploying key features to applications that significantly enhances flight operations for Singapore Airlines. Served various roles including front end web developer, full stack web developer and UI tech lead.             </p>
           </div>
         </div>
         <div className="relative pl-10 after:absolute after:inset-y-0 after:w-px after:bg-gray-500/20 dark:after:bg-gray-400/20">
