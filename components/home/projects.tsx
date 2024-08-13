@@ -7,7 +7,7 @@ import Link from "next/link"
 export default function Projects() {
   return (
     <section className="space-y-4">
-      <h2 className="text-xl font-semibold">Projects</h2>
+      <h2 className="text-xl font-semibold">Side Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <Card className="w-full p-4 space-y-2 flex flex-col">
           <CardContent className="flex-1" >
